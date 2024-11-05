@@ -1,0 +1,15 @@
+{
+  "main": "lib/binding.js",
+  "dependencies": {
+    "node-addon-api": "^7.1.0"
+  },
+  "scripts": {
+    "test": "node --napi-modules ./test/test_binding.js"
+  },
+  "gypfile": true,
+  "name": "iec61850",
+  "version": "1.0.2",
+  "description": "Node bindings for libiec61850",
+  "author": "Francesco Sportolari <francesco.sportolari@gmail.com>",
+  "license": "MIT"
+}
